@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eee6e6;
+}
+
+.cards-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.card {
+  text-align: center;
+  width: 300px;
+  height: 400px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 7px;
+}
+
+.title {
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+
+.price {
+  font-size: 70px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.fas {
+  font-size: 35px;
+  padding: 5px;
+}
+
+.storage,
+.user,
+.send {
+  padding: 12px;
+  font-weight: 700;
+}
+
+.link,
+.sec-link {
+  margin-top: 20px;
+  background-color: blueviolet;
+  padding: 10px;
+  border-radius: 7px;
+}
+
+.link a,
+.sec-link a {
+  text-decoration: none;
+}
+
+.sec-card {
+  height: 450px;
+  color: white;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(148, 138, 192),
+    #6495ed
+  );
+}
+
+.text {
+  margin-top: 25px;
+}
+
+.link a:hover {
+  cursor: pointer;
+}
+
+.sec-card .sec-link {
+  background-color: white;
+}
+
+.card .link {
+  background-color: #6495ed;
+}
+
+.card .link a {
+  color: white;
+}
+
+.sec-card .sec-link a {
+  color: #6495ed;
+}
+
+.link:hover {
+  background-color: white;
+  border: 1px solid black;
+}
+
+.link:hover a {
+  color: #6495ed;
+}
+
+.sec-link:hover {
+  background-color: transparent;
+  border: 1px solid white;
+}
+
+.sec-link:hover a {
+  color: white;
+}
+
+.link,
+.sec-link:hover {
+  cursor: pointer;
+}
+
+.link,
+.sec-link {
+  margin-top: 20px;
+}
